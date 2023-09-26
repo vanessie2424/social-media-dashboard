@@ -51,6 +51,7 @@ function App() {
       <div className="social_title">
         <h1 style={h1Header}>Social Media Dashboard </h1>
         <p style={pHeader}>Total Followers: 23,004</p>
+        <div className='line'></div>
       </div>
       <div className="dark_contain">
         <h4 style={h1Header}>Dark Mode </h4>
@@ -73,9 +74,12 @@ function App() {
       <div className="overview_element_container">
       {overviewElement}
       </div>
-    
+
+      <footer className='footer'> Coded by ravanCode </footer>
     
     </div>
+
+   
     
 
 
